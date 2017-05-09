@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TechShiva/SkypeCallingBot"
+    "url": "https://git.heroku.com/skypecalling-demo.git"
   },
   "keywords": [
     "node",
