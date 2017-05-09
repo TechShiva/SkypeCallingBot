@@ -12,7 +12,7 @@ server.listen(port, function () {
 
 function send(req, res,next) {
     res.send("Welcome to NodeJS Bot");
-    next();
+    //next();
 }
 
 server.get("/", send);
