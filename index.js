@@ -6,13 +6,21 @@ var port = process.env.port || 3000;
 
 var server = restify.createServer();
 server.listen(port, function () {
-    console.log("server is running on localhost :" + process.env.port);
+    console.log("server is running on localhost :" + port);
 });
 
 
 function send(req, res,next) {
-    res.send("Welcome to NodeJS Bot");
+   // res.send("Welcome to NodeJS Bot");
     //next();
+var body = '<html><body>Welcome to NodeJS Bot Demo</body></html>';
+res.writeHead(200, {
+  'Content-Length': Buffer.byteLength(body),
+  'Content-Type': 'text/html'
+});
+res.write(body);
+res.end();
+return next();
 }
 
 server.get("/", send);
