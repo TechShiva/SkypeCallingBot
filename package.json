@@ -1,0 +1,29 @@
+{
+  "name": "node-js-getting-started",
+  "version": "3.10.10",
+  "description": "A sample Node.js app using Express 4",
+  "engines": {
+    "node": "6.10.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "botbuilder": "^3.7.0",
+    "botbuilder-calling": "^3.0.1",
+    "restify": "^4.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TechShiva/SkypeCallingBot"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "restify",
+    "botbuilder",
+    "botbuilder-calling"
+  ]
+ 
+}
