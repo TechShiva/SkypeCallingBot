@@ -16,7 +16,8 @@ function send(req, res,next) {
 }
 
 server.get("/", send);
-                         
+
+   /*                      
 var msgConnector = new msgBuilder.ChatConnector({
     appId: "f126e5af-beaa-4774-8144-4d2e300df102",
     appPassword: "Phm137R0bCG9vu5rXgCc0pw"
@@ -40,5 +41,6 @@ msgBot.dialog("/", function (session) {
 callBot.dialog("/", function (session) {
     session.send("Hello Shailendra. How may I help you");
 });
+     */
 
 
