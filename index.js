@@ -2,7 +2,7 @@
 var restify = require("restify");
 var msgBuilder = require("botbuilder");
 var callBuilder = require("botbuilder-calling");
-var port = process.env.port || 5000;
+var port = process.env.port || 3000;
 
 var server = restify.createServer();
 server.listen(port, function () {
