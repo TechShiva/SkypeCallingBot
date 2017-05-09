@@ -2,11 +2,11 @@
 var restify = require("restify");
 var msgBuilder = require("botbuilder");
 var callBuilder = require("botbuilder-calling");
-var port = process.env.port || 3988;
+var port = process.env.port || 5000;
 
 var server = restify.createServer();
 server.listen(port, function () {
-    console.log("server is running on localhost :" + server.port);
+    console.log("server is running on localhost :" + process.env.port);
 });
 
 
